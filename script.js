@@ -1,6 +1,6 @@
 function getWeather() {
     const city = document.getElementById('cityInput').value;
-    const apiKey = '2d5646e34152455e948220931241104'; // Replace with your actual API key
+    const apiKey = '2d5646e34152455e948220931241104';
 
     fetch(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`)
         .then(response => response.json())
