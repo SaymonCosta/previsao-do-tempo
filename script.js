@@ -15,5 +15,5 @@ function getWeather() {
             document.getElementById('windSpeed').textContent = `Velocidade do vento: ${windSpeed} km/h`;
             document.getElementById('currentDate').textContent = `Hoje é ${currentDate}`;
         })
-        .catch(error => console.error('Erro ao buscar dados do tempo:', error));
+        
 }
